@@ -2,6 +2,56 @@
 <html>
   <body>
     <h1>Registration form</h1>
+
+    <form>
+      <p>
+        <label>Username
+          <input type="text" required>
+        </label>
+        <label>password
+          <input type="password" required>
+        </label>
+      </p>
+
+      <p>
+        <label>Email</label>
+          <input type="email" required>
+      </p>
+
+      
+      <legend>Which taxi do you require?</legend>
+        <p><label> <input type="radio" name="taxi" required> Car </label></p>
+        <p><label> <input type="radio" name="taxi" required> Van </label></p>
+        <p><label> <input type="radio" name="taxi" required> Tuk Tuk </label></p>
+      
+      <legend>Extras</legend>
+        <p><label> <input type="checkbox" name="extras"> Baby Seat </label></p>
+        <p><label> <input type="checkbox" name="extras"> Wheelchair Access </label></p>
+        <p><label> <input type="checkbox" name="extras"> Stock Tip </label></p>
+
+      <p>
+        <label>Pickup
+        <select>
+          <option>Select One</option>
+          <option>Taxi Office</option>
+          <option>Town Hall</option>
+          <option>We'll Guess!</option>
+        </select>
+        </label>
+
+      </p>
+
+      <p>
+        <label>Special
+          <textarea name="specialtextbox">
+          </textarea>
+        </label>
+      </p>
+
+      <button>Submit</button>
+    </form>
+
+
     <!-- Add form here -->
   </body>
 </html>
