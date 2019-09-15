@@ -1,8 +1,25 @@
+
 .container {
+    
+    margin: 100px;
+    padding:100px;
+    width:1000px;
+    display:flex;
+    align-items: center;
+    
+    font-size:xx-large;
+    text-align: center;
+    justify-content: space-between;
+
+   
 }
 
 .smol {
+    height: 200px;
 }
 
 .col {
+    border-style: dashed;
+    padding: 10px;
+
 }

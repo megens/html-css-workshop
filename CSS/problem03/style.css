@@ -1,12 +1,15 @@
 .title {
-
+    font-size:xx-large;
+    text-align: center;
+    
 }
 .subtitle {
-
+    font-size:x-large;
+    text-align: center;
 }
 .content {
-
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
 .emph {
-
+    font-style:italic;
 }

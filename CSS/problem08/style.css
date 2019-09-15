@@ -1,0 +1,36 @@
+.supercontainer {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    height:100vh;
+    justify-content: space-around;
+}
+
+.flex-container {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.card {
+    border-style:dashed;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    height:100px;
+    padding:2px;
+}
+
+.img-collection {
+    display:flex;
+    justify-content: center;
+}
+
+.content {
+    height:50px;
+    width:50px;
+    color:red;
+    background-color: blue;
+
+}
